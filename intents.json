@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! How can I help with your finances today?"]
+    },
+    {
+      "tag": "balance",
+      "patterns": ["What's my balance", "Show balance", "How much do I have", "Check balance"],
+      "responses": ["Let me check your balance..."]
+    },
+    {
+      "tag": "add_income",
+      "patterns": ["Add income", "I received money", "Log income", "Record income"],
+      "responses": ["Recording your income..."]
+    },
+    {
+      "tag": "add_expense",
+      "patterns": ["Add expense", "I spent money", "Log expense", "Record expense"],
+      "responses": ["Recording your expense..."]
+    },
+    {
+      "tag": "summary",
+      "patterns": ["Show summary", "Financial summary", "Monthly report", "How am I doing"],
+      "responses": ["Here's your financial summary..."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Exit", "Quit"],
+      "responses": ["Goodbye! Stay on top of your finances!"]
+    }
+  ]
+}
